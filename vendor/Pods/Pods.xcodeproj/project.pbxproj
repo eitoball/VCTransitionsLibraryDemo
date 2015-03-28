@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E7734B7B4600A7ECB70D32 /* CECardsAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E7DD1524F7CD799B117B64 /* CECardsAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		332710994DB33B3B38621A8D /* CEPinchInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E2BF0DC4EDF38881FDE6E4 /* CEPinchInteractionController.h */; };
+		3F3776CE0B83A0E4AEAC32A2 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB627716BB7F69A283A2FB2 /* CEReversibleAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45363269FA29B13E73885FBA /* CECrossfadeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C04117A4AD481D2E6A9C31 /* CECrossfadeAnimationController.h */; };
+		47A7DADCD5DFEA9988AD8A89 /* CEPanAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CF407CE8CE0D074DC4789F /* CEPanAnimationController.h */; };
+		4B5F5AE7DE53C6153F385623 /* CECubeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC33B4FC553C958B673BE961 /* CECubeAnimationController.h */; };
+		5C5CA986B8EF50E6C6C3C35B /* CEFlipAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB9C45AFD190736B5443799 /* CEFlipAnimationController.h */; };
+		5E4CB05E2C2338145BBA14B6 /* CEVerticalSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9755D8D23CD26C264FED0B /* CEVerticalSwipeInteractionController.h */; };
+		6E707CBCE3B4C21BEC192398 /* CETurnAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8F406EA94DA30BF8FB582E /* CETurnAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77ABD96B248E576846F227DF /* CEPortalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C5864CD0160FA5FB560EA /* CEPortalAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86AFA2DA36E4FBDFD7AF70B6 /* CENatGeoAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49F6A7031BD6422825634E /* CENatGeoAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90F63A0425596B07B72DCE9E /* CECrossfadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526B82B988DF9964C87FC3E /* CECrossfadeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91867B433CAD57AE2BC4F4AD /* CEHorizontalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B36FFE5D7696ECDB74E7E /* CEHorizontalSwipeInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		92F0E3E0314A07CB48259C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DD174B6C7AEB462A45CB3F /* Foundation.framework */; };
+		951D691F541F48000E55541C /* CECardsAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AC54E3EAF083DF51B63503 /* CECardsAnimationController.h */; };
+		983251717AFBBE0020F70FE2 /* CEPortalAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4649C365E8B1CFAA443456 /* CEPortalAnimationController.h */; };
+		9C632C44A6D2EEEBD7665BFB /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560A02DD1BCDBB4D94FD3C6 /* CEFoldAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E3D53F1E37D3BA0F5B39BF7 /* CEExplodeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4728ECE0312BB745E4FD7 /* CEExplodeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A210E96C8DD60B6448727BC6 /* CEPanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2391B612E573F5B9D14AF0F0 /* CEPanAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA1152EE0E9CF1D50BFC5E49 /* CEFoldAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02557462BF2AA9426567E8FE /* CEFoldAnimationController.h */; };
+		AC721C8E815C5E3387295947 /* CEReversibleAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F013196DF0BBB0312963C1B2 /* CEReversibleAnimationController.h */; };
+		AE8C276ED329591F2B32A18B /* CEBaseInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4FE707D495A0BB2F32E7B4 /* CEBaseInteractionController.h */; };
+		B0B2493222574B3542976D86 /* CEExplodeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B79DE87692951D20B7623AC /* CEExplodeAnimationController.h */; };
+		B9016A1F5AD4F5B994AB1B62 /* CETurnAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E140A6943381D02D118F15 /* CETurnAnimationController.h */; };
+		BDE05E2434D474FD4CE27D47 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEFA7C479C8D6FC89EC2A05 /* CEBaseInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C52F81F3BA3E5F944E8C346A /* CEHorizontalSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C221C8ADF72B48F4063E014 /* CEHorizontalSwipeInteractionController.h */; };
+		C876E5FC36B5E0AF2B072E74 /* CEFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A35829C562264A5BE8D13E /* CEFlipAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7406B03CA087EFA14F18716 /* CEVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12B0508402C41B7A882295C /* CEVerticalSwipeInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1AC6DB22F82D4E0D23B927A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DD174B6C7AEB462A45CB3F /* Foundation.framework */; };
+		E75B8BAA82B5DA1DD686027A /* CENatGeoAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8C9CEEFB0F7782384EE467 /* CENatGeoAnimationController.h */; };
+		E948DE45766C0150C8F8F8A4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB3DAD68A2696F6FF84C93 /* Pods-dummy.m */; };
+		FB6D52C1BBBA5C88A5BE3A5C /* CECubeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4DB0B067726E33DD006F10 /* CECubeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FCE08CEA93D1A5DE07D05F63 /* Pods-VCTransitionsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B54B4FF580A3602F4C9886 /* Pods-VCTransitionsLibrary-dummy.m */; };
+		FF3B20E049E9BE3DDAFFFF9E /* CEPinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4044F061EF42516748DA6 /* CEPinchInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B15B16DFF951839177B42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4ED0300AAD909567277DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39377232F551660BAB785008;
+			remoteInfo = "Pods-VCTransitionsLibrary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02557462BF2AA9426567E8FE /* CEFoldAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEFoldAnimationController.h; path = AnimationControllers/CEFoldAnimationController.h; sourceTree = "<group>"; };
+		03C04117A4AD481D2E6A9C31 /* CECrossfadeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECrossfadeAnimationController.h; path = AnimationControllers/CECrossfadeAnimationController.h; sourceTree = "<group>"; };
+		08961A02D32E59709379F19D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		0A46ECE0280BF865CE130E67 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB9C45AFD190736B5443799 /* CEFlipAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEFlipAnimationController.h; path = AnimationControllers/CEFlipAnimationController.h; sourceTree = "<group>"; };
+		15B54B4FF580A3602F4C9886 /* Pods-VCTransitionsLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCTransitionsLibrary-dummy.m"; sourceTree = "<group>"; };
+		1F9755D8D23CD26C264FED0B /* CEVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEVerticalSwipeInteractionController.h; path = InteractionControllers/CEVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		2391B612E573F5B9D14AF0F0 /* CEPanAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPanAnimationController.m; path = AnimationControllers/CEPanAnimationController.m; sourceTree = "<group>"; };
+		33E140A6943381D02D118F15 /* CETurnAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CETurnAnimationController.h; path = AnimationControllers/CETurnAnimationController.h; sourceTree = "<group>"; };
+		3BA4044F061EF42516748DA6 /* CEPinchInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPinchInteractionController.m; path = InteractionControllers/CEPinchInteractionController.m; sourceTree = "<group>"; };
+		3EBB3DAD68A2696F6FF84C93 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4447AB7468C5F844211FF4D1 /* Pods-VCTransitionsLibrary-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTransitionsLibrary-Private.xcconfig"; sourceTree = "<group>"; };
+		4560A02DD1BCDBB4D94FD3C6 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEFoldAnimationController.m; path = AnimationControllers/CEFoldAnimationController.m; sourceTree = "<group>"; };
+		471B396A61DC506898DA9146 /* Pods-VCTransitionsLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VCTransitionsLibrary-prefix.pch"; sourceTree = "<group>"; };
+		48A35829C562264A5BE8D13E /* CEFlipAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEFlipAnimationController.m; path = AnimationControllers/CEFlipAnimationController.m; sourceTree = "<group>"; };
+		4DE43EBC364DFB5E80E8426C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		63D4728ECE0312BB745E4FD7 /* CEExplodeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEExplodeAnimationController.m; path = AnimationControllers/CEExplodeAnimationController.m; sourceTree = "<group>"; };
+		6526B82B988DF9964C87FC3E /* CECrossfadeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECrossfadeAnimationController.m; path = AnimationControllers/CECrossfadeAnimationController.m; sourceTree = "<group>"; };
+		6C221C8ADF72B48F4063E014 /* CEHorizontalSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEHorizontalSwipeInteractionController.h; path = InteractionControllers/CEHorizontalSwipeInteractionController.h; sourceTree = "<group>"; };
+		6E4649C365E8B1CFAA443456 /* CEPortalAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPortalAnimationController.h; path = AnimationControllers/CEPortalAnimationController.h; sourceTree = "<group>"; };
+		77E7DD1524F7CD799B117B64 /* CECardsAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECardsAnimationController.m; path = AnimationControllers/CECardsAnimationController.m; sourceTree = "<group>"; };
+		7E4DB0B067726E33DD006F10 /* CECubeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECubeAnimationController.m; path = AnimationControllers/CECubeAnimationController.m; sourceTree = "<group>"; };
+		7F1EE3C1A43ED6A9CB1C9BD0 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A8C9CEEFB0F7782384EE467 /* CENatGeoAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CENatGeoAnimationController.h; path = AnimationControllers/CENatGeoAnimationController.h; sourceTree = "<group>"; };
+		8F4FE707D495A0BB2F32E7B4 /* CEBaseInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEBaseInteractionController.h; path = InteractionControllers/CEBaseInteractionController.h; sourceTree = "<group>"; };
+		9171BD638522D2C61D2EBFB0 /* Pods-VCTransitionsLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTransitionsLibrary.xcconfig"; sourceTree = "<group>"; };
+		99DD174B6C7AEB462A45CB3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B79DE87692951D20B7623AC /* CEExplodeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEExplodeAnimationController.h; path = AnimationControllers/CEExplodeAnimationController.h; sourceTree = "<group>"; };
+		AD2B36FFE5D7696ECDB74E7E /* CEHorizontalSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEHorizontalSwipeInteractionController.m; path = InteractionControllers/CEHorizontalSwipeInteractionController.m; sourceTree = "<group>"; };
+		B12B0508402C41B7A882295C /* CEVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEVerticalSwipeInteractionController.m; path = InteractionControllers/CEVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		B15FF8DAEB8F92DD949E40AE /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B9CF407CE8CE0D074DC4789F /* CEPanAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPanAnimationController.h; path = AnimationControllers/CEPanAnimationController.h; sourceTree = "<group>"; };
+		BBEFA7C479C8D6FC89EC2A05 /* CEBaseInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEBaseInteractionController.m; path = InteractionControllers/CEBaseInteractionController.m; sourceTree = "<group>"; };
+		C7E2BF0DC4EDF38881FDE6E4 /* CEPinchInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPinchInteractionController.h; path = InteractionControllers/CEPinchInteractionController.h; sourceTree = "<group>"; };
+		CBA7D1ADB3AEE5DC33FB4E75 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC210614F0693FD245905DB1 /* libPods-VCTransitionsLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCTransitionsLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33B4FC553C958B673BE961 /* CECubeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECubeAnimationController.h; path = AnimationControllers/CECubeAnimationController.h; sourceTree = "<group>"; };
+		CF8F406EA94DA30BF8FB582E /* CETurnAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CETurnAnimationController.m; path = AnimationControllers/CETurnAnimationController.m; sourceTree = "<group>"; };
+		EE7C5864CD0160FA5FB560EA /* CEPortalAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPortalAnimationController.m; path = AnimationControllers/CEPortalAnimationController.m; sourceTree = "<group>"; };
+		F013196DF0BBB0312963C1B2 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEReversibleAnimationController.h; path = AnimationControllers/CEReversibleAnimationController.h; sourceTree = "<group>"; };
+		F41F049C60773BA4E698B392 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		F8AC54E3EAF083DF51B63503 /* CECardsAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECardsAnimationController.h; path = AnimationControllers/CECardsAnimationController.h; sourceTree = "<group>"; };
+		FC49F6A7031BD6422825634E /* CENatGeoAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CENatGeoAnimationController.m; path = AnimationControllers/CENatGeoAnimationController.m; sourceTree = "<group>"; };
+		FFB627716BB7F69A283A2FB2 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEReversibleAnimationController.m; path = AnimationControllers/CEReversibleAnimationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19303545A69DF56CAE77D750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0E3E0314A07CB48259C4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8EC974D753E2A5ED55614C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AC6DB22F82D4E0D23B927A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096F3EA8A2352A44B565DCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A6A9753B35294F1557A74A9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A6A9753B35294F1557A74A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99DD174B6C7AEB462A45CB3F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1EEED88A0B451C2DB1AC8D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ECE0280BF865CE130E67 /* libPods.a */,
+				CC210614F0693FD245905DB1 /* libPods-VCTransitionsLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C26ACAF40AB251FF594F993 /* VCTransitionsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				8F4FE707D495A0BB2F32E7B4 /* CEBaseInteractionController.h */,
+				BBEFA7C479C8D6FC89EC2A05 /* CEBaseInteractionController.m */,
+				F8AC54E3EAF083DF51B63503 /* CECardsAnimationController.h */,
+				77E7DD1524F7CD799B117B64 /* CECardsAnimationController.m */,
+				03C04117A4AD481D2E6A9C31 /* CECrossfadeAnimationController.h */,
+				6526B82B988DF9964C87FC3E /* CECrossfadeAnimationController.m */,
+				CC33B4FC553C958B673BE961 /* CECubeAnimationController.h */,
+				7E4DB0B067726E33DD006F10 /* CECubeAnimationController.m */,
+				9B79DE87692951D20B7623AC /* CEExplodeAnimationController.h */,
+				63D4728ECE0312BB745E4FD7 /* CEExplodeAnimationController.m */,
+				0FB9C45AFD190736B5443799 /* CEFlipAnimationController.h */,
+				48A35829C562264A5BE8D13E /* CEFlipAnimationController.m */,
+				02557462BF2AA9426567E8FE /* CEFoldAnimationController.h */,
+				4560A02DD1BCDBB4D94FD3C6 /* CEFoldAnimationController.m */,
+				6C221C8ADF72B48F4063E014 /* CEHorizontalSwipeInteractionController.h */,
+				AD2B36FFE5D7696ECDB74E7E /* CEHorizontalSwipeInteractionController.m */,
+				8A8C9CEEFB0F7782384EE467 /* CENatGeoAnimationController.h */,
+				FC49F6A7031BD6422825634E /* CENatGeoAnimationController.m */,
+				B9CF407CE8CE0D074DC4789F /* CEPanAnimationController.h */,
+				2391B612E573F5B9D14AF0F0 /* CEPanAnimationController.m */,
+				C7E2BF0DC4EDF38881FDE6E4 /* CEPinchInteractionController.h */,
+				3BA4044F061EF42516748DA6 /* CEPinchInteractionController.m */,
+				6E4649C365E8B1CFAA443456 /* CEPortalAnimationController.h */,
+				EE7C5864CD0160FA5FB560EA /* CEPortalAnimationController.m */,
+				F013196DF0BBB0312963C1B2 /* CEReversibleAnimationController.h */,
+				FFB627716BB7F69A283A2FB2 /* CEReversibleAnimationController.m */,
+				33E140A6943381D02D118F15 /* CETurnAnimationController.h */,
+				CF8F406EA94DA30BF8FB582E /* CETurnAnimationController.m */,
+				1F9755D8D23CD26C264FED0B /* CEVerticalSwipeInteractionController.h */,
+				B12B0508402C41B7A882295C /* CEVerticalSwipeInteractionController.m */,
+				7D15DE4AEE584005CB60A868 /* Support Files */,
+			);
+			path = VCTransitionsLibrary;
+			sourceTree = "<group>";
+		};
+		7D15DE4AEE584005CB60A868 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9171BD638522D2C61D2EBFB0 /* Pods-VCTransitionsLibrary.xcconfig */,
+				4447AB7468C5F844211FF4D1 /* Pods-VCTransitionsLibrary-Private.xcconfig */,
+				15B54B4FF580A3602F4C9886 /* Pods-VCTransitionsLibrary-dummy.m */,
+				471B396A61DC506898DA9146 /* Pods-VCTransitionsLibrary-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VCTransitionsLibrary";
+			sourceTree = "<group>";
+		};
+		C1B1E4D3BC2F2A0A232BA33C = {
+			isa = PBXGroup;
+			children = (
+				096F3EA8A2352A44B565DCB0 /* Frameworks */,
+				F57A73C02A4ABC9C5DD59EFA /* Pods */,
+				1EEED88A0B451C2DB1AC8D1D /* Products */,
+				C94E28597762CFE823B181C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C94E28597762CFE823B181C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE489614855333CA35D8279D /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE489614855333CA35D8279D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F1EE3C1A43ED6A9CB1C9BD0 /* Pods-acknowledgements.markdown */,
+				CBA7D1ADB3AEE5DC33FB4E75 /* Pods-acknowledgements.plist */,
+				3EBB3DAD68A2696F6FF84C93 /* Pods-dummy.m */,
+				F41F049C60773BA4E698B392 /* Pods-environment.h */,
+				B15FF8DAEB8F92DD949E40AE /* Pods-resources.sh */,
+				4DE43EBC364DFB5E80E8426C /* Pods.debug.xcconfig */,
+				08961A02D32E59709379F19D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		F57A73C02A4ABC9C5DD59EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C26ACAF40AB251FF594F993 /* VCTransitionsLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB462D99B07F201627CFA37C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8C276ED329591F2B32A18B /* CEBaseInteractionController.h in Headers */,
+				951D691F541F48000E55541C /* CECardsAnimationController.h in Headers */,
+				45363269FA29B13E73885FBA /* CECrossfadeAnimationController.h in Headers */,
+				4B5F5AE7DE53C6153F385623 /* CECubeAnimationController.h in Headers */,
+				B0B2493222574B3542976D86 /* CEExplodeAnimationController.h in Headers */,
+				5C5CA986B8EF50E6C6C3C35B /* CEFlipAnimationController.h in Headers */,
+				AA1152EE0E9CF1D50BFC5E49 /* CEFoldAnimationController.h in Headers */,
+				C52F81F3BA3E5F944E8C346A /* CEHorizontalSwipeInteractionController.h in Headers */,
+				E75B8BAA82B5DA1DD686027A /* CENatGeoAnimationController.h in Headers */,
+				47A7DADCD5DFEA9988AD8A89 /* CEPanAnimationController.h in Headers */,
+				332710994DB33B3B38621A8D /* CEPinchInteractionController.h in Headers */,
+				983251717AFBBE0020F70FE2 /* CEPortalAnimationController.h in Headers */,
+				AC721C8E815C5E3387295947 /* CEReversibleAnimationController.h in Headers */,
+				B9016A1F5AD4F5B994AB1B62 /* CETurnAnimationController.h in Headers */,
+				5E4CB05E2C2338145BBA14B6 /* CEVerticalSwipeInteractionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39377232F551660BAB785008 /* Pods-VCTransitionsLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D46FF6D7900EAE36F73402C /* Build configuration list for PBXNativeTarget "Pods-VCTransitionsLibrary" */;
+			buildPhases = (
+				C84CC3A2063B7059918E01C4 /* Sources */,
+				8C8EC974D753E2A5ED55614C /* Frameworks */,
+				DB462D99B07F201627CFA37C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VCTransitionsLibrary";
+			productName = "Pods-VCTransitionsLibrary";
+			productReference = CC210614F0693FD245905DB1 /* libPods-VCTransitionsLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97E7F75E3DE4AFC649DF8633 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252DA2C15824F7C33F157D9C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				07CEF11A6DF3BE031AE50ADA /* Sources */,
+				19303545A69DF56CAE77D750 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7B1492D73524CBFC0E9485 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0A46ECE0280BF865CE130E67 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4ED0300AAD909567277DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 21E327025E1F20CE350FB205 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1B1E4D3BC2F2A0A232BA33C;
+			productRefGroup = 1EEED88A0B451C2DB1AC8D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E7F75E3DE4AFC649DF8633 /* Pods */,
+				39377232F551660BAB785008 /* Pods-VCTransitionsLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CEF11A6DF3BE031AE50ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E948DE45766C0150C8F8F8A4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CC3A2063B7059918E01C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE05E2434D474FD4CE27D47 /* CEBaseInteractionController.m in Sources */,
+				01E7734B7B4600A7ECB70D32 /* CECardsAnimationController.m in Sources */,
+				90F63A0425596B07B72DCE9E /* CECrossfadeAnimationController.m in Sources */,
+				FB6D52C1BBBA5C88A5BE3A5C /* CECubeAnimationController.m in Sources */,
+				9E3D53F1E37D3BA0F5B39BF7 /* CEExplodeAnimationController.m in Sources */,
+				C876E5FC36B5E0AF2B072E74 /* CEFlipAnimationController.m in Sources */,
+				9C632C44A6D2EEEBD7665BFB /* CEFoldAnimationController.m in Sources */,
+				91867B433CAD57AE2BC4F4AD /* CEHorizontalSwipeInteractionController.m in Sources */,
+				86AFA2DA36E4FBDFD7AF70B6 /* CENatGeoAnimationController.m in Sources */,
+				A210E96C8DD60B6448727BC6 /* CEPanAnimationController.m in Sources */,
+				FF3B20E049E9BE3DDAFFFF9E /* CEPinchInteractionController.m in Sources */,
+				77ABD96B248E576846F227DF /* CEPortalAnimationController.m in Sources */,
+				3F3776CE0B83A0E4AEAC32A2 /* CEReversibleAnimationController.m in Sources */,
+				6E707CBCE3B4C21BEC192398 /* CETurnAnimationController.m in Sources */,
+				D7406B03CA087EFA14F18716 /* CEVerticalSwipeInteractionController.m in Sources */,
+				FCE08CEA93D1A5DE07D05F63 /* Pods-VCTransitionsLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7B1492D73524CBFC0E9485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VCTransitionsLibrary";
+			target = 39377232F551660BAB785008 /* Pods-VCTransitionsLibrary */;
+			targetProxy = 41B15B16DFF951839177B42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D6BF1C5055CE48A2535F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5390F9533B9D803F1642BD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		643B4C86E617ACDCE82D1BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4447AB7468C5F844211FF4D1 /* Pods-VCTransitionsLibrary-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VCTransitionsLibrary/Pods-VCTransitionsLibrary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B40BDB6B83A06D15F32CF0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08961A02D32E59709379F19D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D667DFB343F55B7A0408BF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE43EBC364DFB5E80E8426C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC7DED48CBB0B3C5CC27FD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4447AB7468C5F844211FF4D1 /* Pods-VCTransitionsLibrary-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VCTransitionsLibrary/Pods-VCTransitionsLibrary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E327025E1F20CE350FB205 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5390F9533B9D803F1642BD2C /* Debug */,
+				04D6BF1C5055CE48A2535F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252DA2C15824F7C33F157D9C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D667DFB343F55B7A0408BF4E /* Debug */,
+				B40BDB6B83A06D15F32CF0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D46FF6D7900EAE36F73402C /* Build configuration list for PBXNativeTarget "Pods-VCTransitionsLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643B4C86E617ACDCE82D1BCC /* Debug */,
+				DC7DED48CBB0B3C5CC27FD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4ED0300AAD909567277DB0 /* Project object */;
+}
