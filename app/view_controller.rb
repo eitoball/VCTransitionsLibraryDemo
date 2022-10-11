@@ -1,8 +1,4 @@
 class ViewController < UIViewController
-  extend IB
-
-  outlet :settingsAnimationController
-
   @colorIndex = 0
 
   class << self

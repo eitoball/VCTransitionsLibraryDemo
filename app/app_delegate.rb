@@ -1,18 +1,15 @@
 class AppDelegate
-  extend IB
-
-  outlet :window, UIWindow
-
-  outlet :settingsAnimationController, CEReversibleAnimationController
-  outlet :navigationControllerAnimationController, CEReversibleAnimationController
-  outlet :navigationControllerInteractionController, CEBaseInteractionController
-  outlet :settingsInteractionController, CEBaseInteractionController
-
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    # self.settingsInteractionController = CEReversibleAnimationController.alloc.init
-    # self.navigationControllerInteractionController = CEReversibleAnimationController.alloc.init
-    # self.navigationControllerInteractionController = CEBaseInteractionController.alloc.init
-    # self.settingsInteractionController = CEBaseInteractionController.alloc.init
+    rootViewController = ViewController.alloc.init
+    rootViewController.title = 'VCTransitionsLibraryDemo'
+    rootViewController.view.backgroundColor = UIColor.whiteColor
+
+    navigationController = NavigationController.alloc.initWithRootViewController(rootViewController)
+
+    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+    @window.rootViewController = navigationController
+    @window.makeKeyAndVisible
+
     true
   end
 end
